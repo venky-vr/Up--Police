@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="topNav">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><img src="images/mainLogo.png">
+                        <span>
+                            <h3>UTTAR PRADESH POLICE RECRUITMENT</h3>
+                        </span>
+                    </a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">LOGIN</a></li>
+
+                </ul>
+            </div>
+        </nav>
+        <form method="POST" id="dataForm" class="main-dashboard">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th class="title">Document Verification Preview</th>
+                        <th colspan="4" class="approve"><span>APPROVED</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width="30%"> Roll Number</td>
+                        <td width="20%"> 59838457893</td>
+                        <td width="20%"> 59838457893</td>
+                        <td rowspan="10" class="text-center"><img src="images/img_avatar.png" alt="Avatar"></td>
+
+                    </tr>
+                    <tr>
+                        <td> Name</td>
+                        <td>Arjun Singh</td>
+                        <td>Arjun Singh</td>
+                     
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>Male</td>
+                        <td>Male</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Father's Name</td>
+                        <td>Kabir Singh</td>
+                        <td>Kabir Singh</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td>28-0-1986</td>
+                        <td>28-0-1986</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Age</td>
+                        <td>33 years</td>
+                        <td>33 years</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Domicle of UP</td>
+                        <td>No</td>
+                        <td>No</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>UP Govt. Employee</td>
+                        <td>Yes</td>
+                        <td>Yes </td>
+                       
+                    </tr>
+                    <tr>
+                        <td>DFF</td>
+                        <td>No</td>
+                        <td>No</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>DFF Certificate</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+            <div class="form-btn text-center">
+                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#submitModal">SUBMIT</button>
+                <button type="button" class="btn btn-default edit">EDIT</button>
+            </div>
+        </form>
+     
+        <!-- Modal -->
+        <div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="submitModalTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body text-center">
+                        <div>
+                            <img src="images/checkmark.png">
+                        </div>
+                        <div class="">
+                            <h4>Submitted Successfully</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

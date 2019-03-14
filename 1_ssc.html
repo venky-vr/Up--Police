@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="topNav">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><img src="images/mainLogo.png">
+                        <span>
+                            <h3>UTTAR PRADESH POLICE RECRUITMENT</h3>
+                        </span>
+                    </a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">LOGIN</a></li>
+
+                </ul>
+            </div>
+        </nav>
+        <!--  <img src="images/1_ssc.jpg"> -->
+        <div class="clearfix"></div>
+        <div class="main-dashboard">
+            <div class="top-title">
+                <h4>Document Verification</h4>
+            </div>
+
+            <div class="hr-menu">
+                <ul class="nav navbar-nav">
+                    <li>Name : <span>Arjun Singh</span></li>
+                    <li>Roll Number : <span>123456</span></li>
+                    <li>Gender : <span>Male</span></li>
+                    <li>Date Of Birth : <span>01-01-1985</span></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="board">
+
+                        <div class="board-inner">
+                            <ul class="nav nav-tabs" id="myTab">
+                                <div class="active liner"></div>
+
+                                <li class="active s_list">
+                                    <a href="#home" aria-controls="home" role="tab" data-toggle="tab" title="User Experience">
+                                        <span class="round-tabs">
+
+                                            <i class="icon icon-profile-male"></i>
+                                        </span>
+                                        <span class="info">SSC</span>
+                                    </a></li>
+
+                                <li class="i_list"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"
+                                        title="Sketch">
+                                        <span class="round-tabs">
+                                            <i class="icon icon-pencil"></i>
+                                        </span>
+                                        <span class="info">Intermediate</span></a></li>
+                                <li class="u_list"><a href="#prototyping" aria-controls="prototyping" role="tab"
+                                        data-toggle="tab" title="Prototyping">
+                                        <span class="round-tabs">
+                                            <i class="icon icon-layers"></i>
+                                        </span><span class="info">Under Graduation </span></a>
+                                </li>
+
+                                <li class="p_list"><a href="#uidesign" aria-controls="uidesign" role="tab" data-toggle="tab"
+                                        title="UI Design">
+                                        <span class="round-tabs">
+                                            <i class="icon icon-aperture"></i>
+                                        </span>
+                                        <span class="info">Post Graduation</span></a></li>
+
+                                <li class="c_list"><a href="#doner" aria-controls="doner" role="tab" data-toggle="tab"
+                                        title="Development">
+                                        <span class="round-tabs">
+                                            <i class="icon icon-tools-2"></i>
+                                        </span><span class="info"> Caste</span></a>
+                                </li>
+                                <li><a href="#doner" aria-controls="doner" role="tab" data-toggle="tab" title="Development">
+                                        <span class="round-tabs">
+                                            <i class="icon icon-tools-2"></i>
+                                        </span><span class="info">Domicle</span></a>
+                                </li>
+                                <li><a href="#doner" aria-controls="doner" role="tab" data-toggle="tab" title="Development">
+                                        <span class="round-tabs">
+                                            <i class="icon icon-tools-2"></i>
+                                        </span> <span class="info">FFW</span></a>
+                                </li>
+                                <li><a href="#doner" aria-controls="doner" role="tab" data-toggle="tab" title="Development">
+                                        <span class="round-tabs">
+                                            <i class="icon icon-tools-2"></i>
+                                        </span><span class="info">WPP </span></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Sidebar End-->
+                <!--SSC-->
+                <div class="col-md-9" id="ssc">
+                    <form class="form-horizontal">
+                        <div class="panel panel-primary">
+                            <div class="panel panel-heading">
+                                <h2 class="panel-title">SSC</h2>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-8 details">
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label" for="scaning">Scanned</label>
+                                            <div class="col-sm-4">
+                                                <label class="scaning">Yes
+                                                    <input type="checkbox" checked="checked">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <label class="scaning">No
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-group marks">
+                                            <label class="col-sm-2 control-label" for="mark">Marks</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label obtained" for="obtained">Obtained</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="obtained" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label obtained" for="total">Total</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="total" />
+                                            </div>
+                                            <div class="col-sm-offset-2 col-sm-4 text-right">
+                                                <div class="custom-file">
+                                                    <label class="custom-file-label" for="customFile">Browse</label>
+                                                    <input type="file" class="custom-file-input" id="customFile" style="display:none">
+                                                    <span class="fileValue">Certificate Uploads<br />HERE</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div id="fileUpload">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-footer">
+                                <button type="button" class="btn btn-default s_back">BACK</button>
+                                <button type="button" class="btn btn-default next s_next">NEXT</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <!--SSC End-->
+
+                <!--Intermediate start-->
+                <div class="col-md-9" id="intermediate">
+                    <form class="form-horizontal">
+                        <div class="panel panel-primary">
+                            <div class="panel panel-heading">
+                                <h2 class="panel-title">Intermediate</h2>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-8 details">
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label" for="scaning">Scanned</label>
+                                            <div class="col-sm-4">
+                                                <label class="scaning">Yes
+                                                    <input type="checkbox" checked="checked">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <label class="scaning">No
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-group marks">
+                                            <label class="col-sm-2 control-label" for="mark">Marks</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label obtained" for="obtained">Obtained</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="obtained" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label obtained" for="total">Total</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="total" />
+                                            </div>
+                                            <div class="col-sm-offset-2 col-sm-4 text-right">
+                                                <div class="custom-file">
+                                                    <label class="custom-file-label" for="customFile">Browse</label>
+                                                    <input type="file" class="custom-file-input" id="customFile" style="display:none">
+                                                    <span class="fileValue">Certificate Uploads<br />HERE</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div id="fileUpload">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-footer">
+                                <button type="button" class="btn btn-default i_back">BACK</button>
+                                <button type="button" class="btn btn-default next i_next">NEXT</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <!--Intermediate start End-->
+                <!--Under Graduation-->
+                <div class="col-md-9" id="uGraduation">
+                    <form class="form-horizontal">
+                        <div class="panel panel-primary">
+                            <div class="panel panel-heading">
+                                <h2 class="panel-title">Under Graduation</h2>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-8 details">
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label" for="scaning">Scanned</label>
+                                            <div class="col-sm-4">
+                                                <label class="scaning">Yes
+                                                    <input type="checkbox" checked="checked">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <label class="scaning">No
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-group marks">
+                                            <label class="col-sm-2 control-label" for="mark">Marks</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label obtained" for="obtained">Obtained</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="obtained" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label obtained" for="total">Total</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="total" />
+                                            </div>
+                                            <div class="col-sm-offset-2 col-sm-4 text-right">
+                                                <div class="custom-file">
+                                                    <label class="custom-file-label" for="customFile">Browse</label>
+                                                    <input type="file" class="custom-file-input" id="customFile" style="display:none">
+                                                    <span class="fileValue">Certificate Uploads<br />HERE</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div id="fileUpload">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-footer">
+                                <button type="button" class="btn btn-default u_back">BACK</button>
+                                <button type="button" class="btn btn-default next u_next">NEXT</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <!--Under Graduation End-->
+                <!--Post Graduation-->
+                <div class="col-md-9" id="pGraduation">
+                    <form class="form-horizontal">
+                        <div class="panel panel-primary">
+                            <div class="panel panel-heading">
+                                <h2 class="panel-title">Post Graduation</h2>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-8 details">
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label" for="scaning">Scanned</label>
+                                            <div class="col-sm-4">
+                                                <label class="scaning">Yes
+                                                    <input type="checkbox" checked="checked">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <label class="scaning">No
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-group marks">
+                                            <label class="col-sm-2 control-label" for="mark">Marks</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label obtained" for="obtained">Obtained</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="obtained" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label obtained" for="total">Total</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="total" />
+                                            </div>
+                                            <div class="col-sm-offset-2 col-sm-4 text-right">
+                                                <div class="custom-file">
+                                                    <label class="custom-file-label" for="customFile">Browse</label>
+                                                    <input type="file" class="custom-file-input" id="customFile" style="display:none">
+                                                    <span class="fileValue">Certificate Uploads<br />HERE</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div id="fileUpload">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-footer">
+                                <button type="button" class="btn btn-default p_back">BACK</button>
+                                <button type="button" class="btn btn-default next p_next">NEXT</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <!--Post Graduation End-->
+
+                <!--Caste-->
+                <div class="col-md-9" id="caste">
+                    <form class="form-horizontal">
+                        <div class="panel panel-primary">
+                            <div class="panel panel-heading">
+                                <h2 class="panel-title">Caste</h2>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-8 details">
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label" for="scaning">Scanned</label>
+                                            <div class="col-sm-4">
+                                                <label class="scaning">Yes
+                                                    <input type="checkbox" checked="checked">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <label class="scaning">No
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="form-group">
+
+                                            <div class="col-md-offset-4 col-md-4 text-right">
+                                                <div class="custom-file caste">
+                                                    <label class="custom-file-label" for="customFile">Browse</label>
+                                                    <input type="file" class="custom-file-input" id="customFile" style="display:none">
+                                                    <span class="fileValue">Certificate Uploads<br />HERE</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div id="fileUpload">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-footer">
+                                <button type="button" class="btn btn-default c_back">BACK</button>
+                                <button type="button" class="btn btn-default next">NEXT</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <!--Caste End-->
+
+            </div>
+            <!--Row end-->
+        </div>
+        <!--Main dashboard end-->
+        <div class="clearfix"></div>
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-info">
+                        <span>Helpline:91-20-2754 5114|15 Lines</span>
+                    </div>
+
+                </div>
+                <div class="col-md-6 text-right">
+                    <div class="footer-info">
+                        <span>&copy; 2019 UP Police</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Container end-->
+
+</body>
+
+</html>
+
+<script>
+    $(document).ready(function () {
+        /* file upload */
+        $("#customFile").change(function (e) {
+            var fileUpload = URL.createObjectURL(e.target.files[0])
+            $("#fileUpload").attr('src', fileUpload)
+            var fileName = event.target.files[0].name;
+            if (event.target.nextElementSibling != null) {
+                event.target.nextElementSibling.innerText = fileName;
+            }
+
+        })
+        /* Form Next Btn*/
+        $('#ssc').show();
+        $('.liner').removeClass('liner_color')
+        $('#intermediate, #uGraduation, #pGraduation, #caste').hide();
+        $('.s_next').click(function () {
+            $('#ssc').hide();
+            $('#intermediate').show();
+            $('.i_list').addClass('active');
+
+        });
+        $('.i_next').click(function () {
+            $('#intermediate').hide();
+            $('#uGraduation').show();
+            $('.u_list').addClass('active');
+
+        });
+        $('.u_next').click(function () {
+            $('#uGraduation,#intermediate').hide();
+            $('#pGraduation').show();
+            $('.p_list').addClass('active');
+        });
+        $('.p_next').click(function () {
+            $('#uGraduation,#intermediate,#pGraduation').hide();
+            $('#caste').show();
+            $('.c_list').addClass('active');
+        });
+
+        // Back Button 
+        $('.c_back').click(function () {
+            $('#caste').hide();
+            $('#pGraduation').show();
+            $('.c_list').removeClass('active');
+
+        })
+        $('.p_back').click(function () {
+            $('#pGraduation').hide();
+            $('#uGraduation').show();
+            $('.p_list').removeClass('active');
+
+        })
+        $('.u_back').click(function () {
+            $('#uGraduation').hide();
+            $('#intermediate').show();
+            $('.u_list').removeClass('active');
+        })
+        $('.i_back').click(function () {
+            $('#intermediate').hide();
+            $('#ssc').show();
+            $('.i_list').removeClass('active');
+        })
+
+        // Side Bar hide/show 
+
+        $('.s_list').click(function () {
+            $('#ssc').show();
+            $("#intermediate,#uGraduation,#pGraduation,#caste").hide();
+            $('.i_list, .u_list, .p_list, .c_list').removeClass('active');
+        })
+        $('.i_list').click(function () {
+            $('#ssc,#uGraduation,#pGraduation,#caste').hide();
+            $("#intermediate").show();
+            $('.i_list, .s_list').addClass('active');
+            $('.u_list, .p_list, .c_list').removeClass('active');
+
+        })
+        $('.u_list').click(function () {
+            $("#intermediate,#pGraduation,#caste,#ssc").hide();
+            $('#uGraduation').show();
+            $('.i_list, .s_list,.u_list').addClass('active');
+            $('.p_list, .c_list').removeClass('active');
+
+        })
+        $('.p_list').click(function () {
+            $('#uGraduation,#intermediate,#ssc,#caste').hide();
+            $('#pGraduation').show();
+            $('.i_list, .s_list,.u_list, .p_list').addClass('active');
+            $('.c_list').removeClass('active');
+        })
+        $('.c_list').click(function () {
+            $('#pGraduation,uGraduation,#intermediate,#ssc').hide();
+            $('#caste').show();
+            $('.i_list, .s_list,.u_list, .p_list, .c_list').addClass('active');
+        })
+
+    })
+</script>
